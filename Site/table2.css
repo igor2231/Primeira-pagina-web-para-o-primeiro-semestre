@@ -1,0 +1,10 @@
+table, tr, td, th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        color: black;
+        line-height: auto;
+        font-size: 18px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Car</title>
+<link rel="stylesheet" href="cadastro.css" />
+<link rel="stylesheet" href="barra.css" />
+</head>
+<div class="barra">
+            <a href="index.html">Ínicio /</a>
+            <a href="Motor.html">Motores /</a>
+            <a href="Aspirado.html">Aspirados /</a>
+            <a href="Sobre.html">Sobrealimentados /</a>
+            <a href="segurança.html">Segurança /</a>
+            <a href="perguntas.html">Perguntas Frequentes /</a>
+            <a href="cadastro.html">Cadastro /</a>
+</div>
+<br />
+<body>
+<form class="box" action="cadastro.html" method="GET">  
+    <h1>Cadastro</h1>
+    <p>Digite Seu Nome:</p>
+    <input type="text" name="" placeholder="Nome" />
+    <br />
+    <p>Digite Seu E-mail:</p>
+    <input type="text" name="" placeholder="Digite seu e-mail"/>
+    <br />
+    <p>Crie uma Senha:</p>
+    <input type="password" name="" placeholder="Crie um senha"/>
+    <br></br>
+<button onclick="funcao1()">Cadastrar</button>
+<script>
+   function funcao1()
+   {
+       alert("Parabéns você foi cadastrado com sucesso")
+   }
+</script>
+    <br />
+    <p>Envie um Arquivo de foto para o perfil</p>
+    <input type="file" name="image" />
+</form>
+</body>
+</html>
